@@ -1,0 +1,126 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+/* General setup */
+
+
+html {
+    font-size:16px;
+}
+
+body {
+    margin: auto;
+    width:95%;
+    min-width:50.25rem;
+}
+
+nav {
+    text-align: center;
+    border-top: .125rem solid;
+    border-bottom: .125rem solid;
+    word-spacing: 5rem;
+    padding: .5rem;
+    font: Sans-Serif;
+    font-size: 1.5rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header {
+    
+}
+
+p {
+    letter-spacing: 0.031rem;
+    font-size: 1rem;
+    word-spacing: 0.125rem;
+}
+
+h1 {
+    box-sizing: border-box;
+    text-align: center;
+    transform: rotate(-5deg);
+}
+
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 65%;
+}
+
+.article-image {
+    float: left;
+    margin-right: 1.875rem;
+}
+
+.main-section {
+    float: left;
+    margin: 0 1.5%;
+    width: 40%;
+}
+
+
+.subsection {
+    
+    display:table-row;
+}
+
+aside {
+    float:right;
+    align-content: center;
+    margin: 0 1.5%;
+    width: 10%;
+    
+}
+
+main-section {
+    
